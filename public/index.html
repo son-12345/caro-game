@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cờ Caro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="scoreboard">
+        <h2>Điểm số</h2>
+        <p>Người chơi 1 (X): <span id="playerXScore">0</span></p>
+        <p>Người chơi 2 (O): <span id="playerOScore">0</span></p>
+    </div>
+    <div id="board"></div>
+    <button id="resetButton">Bắt đầu lại</button>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
